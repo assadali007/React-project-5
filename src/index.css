@@ -1,0 +1,80 @@
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  background: #DEE2FF;
+  color:#020887;
+
+
+  margin: 0;
+}
+
+nav {
+  max-width: 550px;
+  padding: 1em 2em;
+  background: #19297C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  padding-right:0.6em;
+}
+.navbar-title {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 0.9em;
+
+}
+.travel-container {
+  display: flex;
+  padding: 1.5em 1.5em;
+}
+.travel-container-image {
+  height: 200px;
+}
+.travel-container-content {
+  padding-left: 1em;
+}
+.travel-path-description {
+  display: flex;
+  align-items: center;
+}
+.path-image {
+  padding-right: 0.4em;
+}
+.path-image-heading {
+  font-size: 10.24px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  font-weight: 300;
+  padding-right: 0.8em;
+
+}
+.google-map {
+  text-decoration: underline;
+  font-size: 10.24px;
+  color:#918E9B;
+  letter-spacing: 1px;
+}
+.travel-container-heading {
+  margin-top :0;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0.7em;
+}
+.travel-date {
+  font-weight: 700;
+  font-size: 0.8em;
+  line-height: 12px;
+
+  color: #2B283A;
+
+}
+.travel-container-content-description {
+  font-size: 1em;
+  color: #374A67;;
+  margin-top: 0.3em;
+}
